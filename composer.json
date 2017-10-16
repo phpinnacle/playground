@@ -1,0 +1,40 @@
+{
+    "name": "phpinnacle/playground",
+    "type": "project",
+    "description": "PHPinnacle Playground",
+    "keywords": [
+        "phpinnacle"
+    ],
+    "homepage": "https://github.com/phpinnacle/playground",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PHPinnacle",
+            "email": "dev@phpinnacle.com",
+            "homepage": "https://phpinnacle.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "^7.1",
+        "amphp/amp": "^2.0",
+        "amphp/aerys": "*",
+        "amphp/artax": "*",
+        "phpinnacle/core": "^0.0.1",
+        "phpinnacle/system": "^0.0.1",
+        "phpinnacle/domain": "^0.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
